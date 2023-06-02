@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#fulltable {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #ced6e0;
+}
+#fulltable tr td {
+  width: 50%;
+  border-bottom: 1px solid #ced6e0;
+}
+#fulltable thead {
+  text-align: center;
+}
+#table-wrap {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  margin: 30px 20px 0px 20px;
+}
+thead tr {
+  height: 50px;
+}
+#wrap {
+  width: 100%;
+  height: 100vh;
+}
+#table {
+  width: 100%;
+  height: 25%;
+}
+#under {
+  width: 100%;
+  height: 40%;
+}
+#score {
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin: 30px 0px 0px 50px;
+  border-radius: 15%;
+  box-shadow: 0px 2px 9px 5px #cfcfcf;
+}
+#real-score {
+  display: inline-block;
+  height: 50%;
+  width: 100%;
+  font-size:5vw;
+  padding-top: 10px;
+}
+#scoreup {
+  display: inline-block;
+  height: 50%;
+  width: 100%;
+  font-size: 2vw;
+  padding-top: 30px;
+}
+#graph {
+  float: right;
+  width: 40%;
+  height: 100%;
+  margin-top: 30px;
+}
+#smalltable {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+canvas {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#right {
+  height: 15%;
+  width: 100%;
+  text-align: right;
+  padding-top: 20px;
+}
+#addmore {
+  margin-right: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6c757D;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#src-date {
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #6c757D;
+  border-radius: 5px;
+  width: 150px;
+}
+#submit {
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6c757D;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+#submit:active {
+  box-shadow: none;
+}
+
+#tablewrap {
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+}
+#body {
+  width: 100%;
+  height: 60%;
+}
+#leftarrow {
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+}
+#rightarrow {
+  width: 10%;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+}
+.date-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+#rerun-btn {
+  margin-right: 10px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #6c757D;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
